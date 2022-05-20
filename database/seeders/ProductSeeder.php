@@ -23,14 +23,14 @@ class ProductSeeder extends Seeder
                 'price'=>'450',
                 'category'=>'mobile',
                 'description'=>'This a sample description of an item YZ',
-                'gallery'=>'https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/phones/nova9/imgs/huawei-nova-9-product-highlights-3.webp'
+                'gallery'=>'https://sc04.alicdn.com/kf/Hcff80174591c4848bbd764dd1fc18b0aT.jpg'
             ],
             [
                 'name'=>'Old tv',
                 'price'=>'50',
                 'category'=>'tv',
                 'description'=>'This a sample description of an old tv',
-                'gallery'=>'https://p.turbosquid.com/ts-thumb/8Q/BNZPkf/nr/_r1_/jpg/1615402953/600x600/fit_q87/809fcce40c2617ac1020dfa1b665865410192f71/_r1_.jpg'
+                'gallery'=>'https://static.turbosquid.com/Preview/2019/05/07__14_24_00/Retro_TV_Showa_Dirt_00.jpgDD92FD2F-8E7F-4427-8210-CCCEA527746DLarge.jpg'
             ],
             [
                 'name'=>'Cristal tv',
