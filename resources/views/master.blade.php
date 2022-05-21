@@ -26,6 +26,7 @@
     }
     img.slider-img{
         height: 400px !important;
+        margin-left: 25%;
     }
     .custom-product{
         height: 600px;
@@ -42,6 +43,9 @@
     }
     .trending-wrapper{
         margin: 30px;
+    }
+    .detail-img{
+        height: 200px;
     }
 </style>
 
