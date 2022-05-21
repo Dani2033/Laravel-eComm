@@ -3,27 +3,25 @@
 <div class="custom-product container">
      <div class="col-sm-10">
         <div class="trending-wrapper">
-            <h4>Products inside your cart</h4>
-            <a class="btn btn-success" href="order_now">Order now</a><br><br>
-            @foreach($products as $item)
+            <h4>My orders</h4>
+            @foreach($orders as $item)
             <div class=" row searched-item cart-list-divider">
              <div class="col-sm-3">
                 <a href="detail/{{$item->id}}">
                     <img class="trending-image" src="{{$item->gallery}}">
                   </a>
              </div>
-             <div class="col-sm-6">
+             <div class="col-sm-9">
                     <div class="">
-                      <h2>{{$item->name}}</h2>
-                      <h5>{{$item->description}}</h5>
+                      <h2>Name : {{$item->name}}</h2>
+                      <h5>Delivery Status : {{$item->status}}</h5>
+                      <h5>Adress : {{$item->address}}</h5>
+                      <h5>Payment Staus : {{$item->payment_status}}</h5>
+                      <h5>Payment Method : {{$item->payment_method}}</h5>
                     </div>
-             </div>
-             <div class="col-sm-3">
-                <a href="/remove_from_cart/{{$item->cart_id}}" style="margin-top:20px;" class="btn btn-warning" >Remove from your cart</a>
              </div>
             </div>
             @endforeach
-            <a class="btn btn-success" href="order_now">Order now</a><br><br>
           </div>
 
      </div>
