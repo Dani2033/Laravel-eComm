@@ -20,6 +20,12 @@ class UserAuth
         {
             return redirect('/');
         }
+
+        if (($request->path()=="add_to_cart" || $request->path()=="cart_list" || $request->path()=="order_now" || $request->path()=="my_orders")
+         && !$request->session()->has('user'))
+        {
+            return redirect('/login');
+        }
         return $next($request);
     }
 }

@@ -40,6 +40,7 @@
     .trending-item{
         float: left;
         width: 20%;
+        text-align: center;
     }
     .trending-wrapper{
         margin: 30px;
@@ -51,6 +52,13 @@
         border-bottom: 1px solid #ccc;
         margin-bottom: 20px;
         padding-bottom: 20px;
+    }
+    .panel-footer{
+        text-align: center;
+        /* position: fixed;
+        height: 50px;
+        bottom: 0;
+        width: 100%; */
     }
 </style>
 

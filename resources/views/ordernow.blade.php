@@ -1,7 +1,9 @@
 @extends('master')
 @section("content")
 <div class="custom-product container">
+
     <div class="col-sm-10">
+        <h2>Order summary</h2><br>
         <table class="table">
             <tbody>
               <tr>

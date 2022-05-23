@@ -1,6 +1,7 @@
-<div style="clear:both" class="panel panel-default">
-    <div class="panel-body">
+<div style="clear:both" class="navbar-fixed-bottom">
+    {{-- <div class="panel-body">
       Panel content
-    </div>
-    <div class="panel-footer">Panel footer</div>
+    </div> --}}
+    <br><br>
+    <div class="panel-footer">Laravel 9 Basic e-Comm project by Daniel Rubio Fdez.</div>
   </div>

@@ -1,9 +1,9 @@
 @extends('master')
 @section("content")
 <div class="custom-product container">
-     <div class="col-sm-10">
+     <div class="col-sm-10 col-sm-offset-1">
         <div class="trending-wrapper">
-            <h4>My orders</h4>
+            <h2>My orders</h2><br>
             @foreach($orders as $item)
             <div class=" row searched-item cart-list-divider">
              <div class="col-sm-3">
